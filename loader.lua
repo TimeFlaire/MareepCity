@@ -21,7 +21,7 @@ function queueOnTeleport(str)
 end
 
 if game.CreatorId == 123247 or game.PlaceId == 370731277 and continuee == true then
-	local githublink = "https://raw.githubusercontent.com/synolope/mpcity/main/"
+	local githublink = "https://raw.githubusercontent.com/TimeFlaire/MareepCity/main/"
 	local loaderurl = githublink .. "loader.lua"
 	local uicheckurl = githublink .. "uicheck.lua"
 	local scripturl = ""
@@ -36,9 +36,9 @@ if game.CreatorId == 123247 or game.PlaceId == 370731277 and continuee == true t
 			loadstring(game:HttpGet("]] .. uicheckurl .. [[",true))()
     		loadstring(game:HttpGet("]] .. loaderurl .. [[",true))()
 	]])
-	loadstring(game:HttpGet(uicheckurl, true))()
+	loadstring(game:HttpGet(uicheckurl, true))()F
 	loadstring(game:HttpGet(scripturl, true))()
 else
-	local function a(...)return game:GetService(...)end;local b = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5", true))()local c ="   " .. a("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY SYNOLOPE"local d, e =b:AddWindow(c,{main_color = Color3.fromRGB(255, 0, 0),min_size = Vector2.new(550, 600),toggle_key = Enum.KeyCode.RightShift,can_resize = true})local f = d:AddTab("Error")f:AddLabel("Wrong Game!")f:AddButton("Join Game",function()game:GetService("TeleportService"):Teleport("370731277")end)f:Show()b:FormatWindows()
+	local function a(...)return game:GetService(...)end;local b = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5", true))()local c ="   " .. a("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY TIMEFLAIRE"local d, e =b:AddWindow(c,{main_color = Color3.fromRGB(255, 0, 0),min_size = Vector2.new(550, 600),toggle_key = Enum.KeyCode.RightShift,can_resize = true})local f = d:AddTab("Error")f:AddLabel("Wrong Game!")f:AddButton("Join Game",function()game:GetService("TeleportService"):Teleport("370731277")end)f:Show()b:FormatWindows()
 	return
 end
