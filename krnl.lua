@@ -46,7 +46,7 @@ if Players.LocalPlayer.UserId == 3207091435 then -- little something for me
 end
 
 local Window,frame = library:AddWindow(guiname, {
-	main_color = Color3.fromRGB(255, 0, 191),
+	main_color = Color3.fromRGB(191, 54, 12),
 	min_size = Vector2.new(550, 600),
 	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
