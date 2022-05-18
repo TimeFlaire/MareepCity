@@ -39,9 +39,9 @@ end
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5",true))() -- https://pastebin.com/raw/SjcYQ23F
 
-local guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY SYNOLOPE"
+local guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY TIMEFLAIRE"
 
-if Players.LocalPlayer.UserId == 3207091435 then -- little something for me
+if Players.LocalPlayer.UserId == 418471973 then -- little something for me
 	guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      OWNER GUI"
 end
 
