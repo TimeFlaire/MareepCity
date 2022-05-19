@@ -2,7 +2,7 @@ local function service(...) return game:GetService(...) end
 
 if queue_on_teleport then
 else
-	local function a(...)return game:GetService(...)end;local b = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5", true))()local c ="   " .. a("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY SYNOLOPE"local d, e =b:AddWindow(c,{main_color = Color3.fromRGB(255, 0, 0),min_size = Vector2.new(550, 600),toggle_key = Enum.KeyCode.RightShift,can_resize = true})local f = d:AddTab("Error")f:AddLabel("Your executor is not supported. We recommend you to use KRNL or Synapse X!")f:AddLabel("Please rejoin and execute this script with supported executor.")f:Show()b:FormatWindows()
+	local function a(...)return game:GetService(...)end;local b = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5", true))()local c ="   " .. a("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY TIMEFLAIRE"local d, e =b:AddWindow(c,{main_color = Color3.fromRGB(255, 0, 0),min_size = Vector2.new(550, 600),toggle_key = Enum.KeyCode.RightShift,can_resize = true})local f = d:AddTab("Error")f:AddLabel("Your executor is not supported. We recommend you to use KRNL or Synapse X!")f:AddLabel("Please rejoin and execute this script with supported executor.")f:Show()b:FormatWindows()
 	return
 end
 
@@ -1391,7 +1391,7 @@ if isfile("meepcityguipos.txt") then
 end
 
 local Settings = {
-	InviteCode = "UtpqrGp29a" --add your invite code here (without the "https://discord.gg/" part)
+	InviteCode = "BB2Wy3t" --add your invite code here (without the "https://discord.gg/" part)
 }
 
 -- Objects
