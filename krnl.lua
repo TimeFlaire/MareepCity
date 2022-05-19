@@ -1320,7 +1320,7 @@ end
 wait(1)
 end
 
-queueOnTeleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua\",true))()")
+queueOnTeleport("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TimeFlaire/MareepCity/main/loader.lua\",true))()")
 
 wait(2)
 
