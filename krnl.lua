@@ -1243,6 +1243,14 @@ giftbuttons:AddButton("Gift Asset X100",function()
 	for i = 1,100,1 do GiftAsset(selectedasset,selectedfriend.UserId) end
 end)
 
+giftbuttons:AddButton("Nuke Mailbox (X1000)",function()
+	for i = 1,1000,1 do GiftAsset(selectedasset,selectedfriend.UserId) end
+end)
+
+giftbuttons:AddButton("Break Mailbox (X10000)",function()
+	for i = 1,10000,1 do GiftAsset(selectedasset,selectedfriend.UserId) end
+end)
+
 Extra:AddButton("Generate Coins",function()
 	queueOnTeleport([[
 
